@@ -12,7 +12,7 @@ var students = function(state, action){
 		}
 	]
 
-	if(action.type == "PICK_STUDENT"){
+	if(action.type === "PICK_STUDENT"){
 		return action.payload
 	}else{
 		return studentArray
